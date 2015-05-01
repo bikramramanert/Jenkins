@@ -1,0 +1,504 @@
+May 01, 2015 4:17:57 PM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+May 01, 2015 4:17:57 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: jetty-winstone-2.8
+May 01, 2015 4:17:58 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+May 01, 2015 4:17:59 PM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: Started SelectChannelConnector@0.0.0.0:9022
+May 01, 2015 4:17:59 PM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v2.0 running: controlPort=disabled
+May 01, 2015 4:17:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 01, 2015 4:17:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 01, 2015 4:17:59 PM org.jvnet.hudson.plugins.backup.BackupPluginImpl loadConfiguration
+INFO: Loading configuration...
+May 01, 2015 4:17:59 PM org.jvnet.hudson.plugins.backup.utils.BackupPersistence loadConfig
+INFO: Config file not found.
+May 01, 2015 4:17:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 01, 2015 4:17:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 01, 2015 4:17:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 01, 2015 4:18:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 01, 2015 4:18:02 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+May 01, 2015 4:18:02 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 20 ms
+May 01, 2015 4:18:02 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 59770
+May 01, 2015 4:18:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 01, 2015 4:18:02 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+May 01, 2015 4:19:49 PM javax.jmdns.impl.DNSIncoming readAnswer
+WARNING: There was an OPT answer. Not currently handled. Option code: 65002 data: 9F3161B9ECC4C717
+May 01, 2015 4:20:36 PM hudson.diagnosis.ReverseProxySetupMonitor getTestForReverseProxySetup
+WARNING: http://localhost:9022/manage vs. http://10.4.3.64:9022/manage
+May 01, 2015 4:27:12 PM javax.jmdns.impl.DNSIncoming readAnswer
+WARNING: There was an OPT answer. Not currently handled. Option code: 65002 data: 31BE2AC4884BA033
+May 01, 2015 4:29:04 PM javax.jmdns.impl.DNSIncoming readAnswer
+WARNING: There was an OPT answer. Not currently handled. Option code: 65002 data: 31BE2AC4884BA033
+May 01, 2015 4:44:26 PM javax.jmdns.impl.DNSIncoming readAnswer
+WARNING: There was an OPT answer. Not currently handled. Option code: 65002 data: 31BE2AC4884BA033
+May 01, 2015 4:45:36 PM org.jenkinsci.plugins.ghprb.GhprbTrigger start
+INFO: Starting the ghprb trigger for the MVCMusicStoreBuild job; newInstance is true
+May 01, 2015 4:45:39 PM org.jenkinsci.plugins.ghprb.GhprbRepository initGhRepository
+SEVERE: Could not retrieve GitHub repository named vimalkumarPyramid/DevOps.git (Do you have properly set 'GitHub project' field in job configuration?)
+java.io.FileNotFoundException: {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:494)
+	at org.kohsuke.github.Requester._to(Requester.java:245)
+	at org.kohsuke.github.Requester.to(Requester.java:191)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:320)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.initGhRepository(GhprbRepository.java:66)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.init(GhprbRepository.java:47)
+	at org.jenkinsci.plugins.ghprb.Ghprb.init(Ghprb.java:71)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:131)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:38)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1876)
+	at hudson.model.Project.submit(Project.java:230)
+	at hudson.model.Job.doConfigSubmit(Job.java:1206)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:788)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:298)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:161)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:96)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:121)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:249)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:686)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1494)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:123)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:114)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1474)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:533)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:960)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1021)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:668)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at winstone.BoundedExecutorService$1.run(BoundedExecutorService.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:451)
+	at org.kohsuke.github.Requester._to(Requester.java:224)
+	... 69 more
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:447)
+	... 70 more
+
+May 01, 2015 4:45:49 PM org.jenkinsci.plugins.ghprb.GhprbTrigger stop
+INFO: Stopping the ghprb trigger for project MVCMusicStoreBuild
+May 01, 2015 4:45:49 PM org.jenkinsci.plugins.ghprb.GhprbTrigger start
+INFO: Starting the ghprb trigger for the MVCMusicStoreBuild job; newInstance is true
+May 01, 2015 4:45:50 PM org.jenkinsci.plugins.ghprb.GhprbRepository initGhRepository
+SEVERE: Could not retrieve GitHub repository named vimalkumarPyramid/DevOps.git (Do you have properly set 'GitHub project' field in job configuration?)
+java.io.FileNotFoundException: {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:494)
+	at org.kohsuke.github.Requester._to(Requester.java:245)
+	at org.kohsuke.github.Requester.to(Requester.java:191)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:320)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.initGhRepository(GhprbRepository.java:66)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.init(GhprbRepository.java:47)
+	at org.jenkinsci.plugins.ghprb.Ghprb.init(Ghprb.java:71)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:131)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:38)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1876)
+	at hudson.model.Project.submit(Project.java:230)
+	at hudson.model.Job.doConfigSubmit(Job.java:1206)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:788)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:298)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:161)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:96)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:121)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:249)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:686)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1494)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:123)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:114)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1474)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:533)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:960)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1021)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:668)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at winstone.BoundedExecutorService$1.run(BoundedExecutorService.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:451)
+	at org.kohsuke.github.Requester._to(Requester.java:224)
+	... 69 more
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:447)
+	... 70 more
+
+May 01, 2015 4:46:00 PM hudson.triggers.SCMTrigger$Runner run
+INFO: SCM changes detected in MVCMusicStoreBuild. Triggering  #1
+May 01, 2015 4:47:02 PM hudson.triggers.SCMTrigger$Runner run
+INFO: SCM changes detected in MVCMusicStoreBuild. Triggering  #2
+May 01, 2015 4:47:17 PM org.jenkinsci.plugins.ghprb.GhprbTrigger stop
+INFO: Stopping the ghprb trigger for project MVCMusicStoreBuild
+May 01, 2015 4:47:17 PM org.jenkinsci.plugins.ghprb.GhprbTrigger start
+INFO: Starting the ghprb trigger for the MVCMusicStoreBuild job; newInstance is true
+May 01, 2015 4:47:18 PM org.jenkinsci.plugins.ghprb.GhprbRepository initGhRepository
+SEVERE: Could not retrieve GitHub repository named vimalkumarPyramid/DevOps.git (Do you have properly set 'GitHub project' field in job configuration?)
+java.io.FileNotFoundException: {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:494)
+	at org.kohsuke.github.Requester._to(Requester.java:245)
+	at org.kohsuke.github.Requester.to(Requester.java:191)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:320)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.initGhRepository(GhprbRepository.java:66)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.init(GhprbRepository.java:47)
+	at org.jenkinsci.plugins.ghprb.Ghprb.init(Ghprb.java:71)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:131)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:38)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1876)
+	at hudson.model.Project.submit(Project.java:230)
+	at hudson.model.Job.doConfigSubmit(Job.java:1206)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:788)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:298)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:161)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:96)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:121)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:249)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:686)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1494)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:123)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:114)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1474)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:533)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:960)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1021)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:668)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at winstone.BoundedExecutorService$1.run(BoundedExecutorService.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:451)
+	at org.kohsuke.github.Requester._to(Requester.java:224)
+	... 69 more
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:447)
+	... 70 more
+
+May 01, 2015 4:47:21 PM org.jenkinsci.plugins.ghprb.GhprbTrigger stop
+INFO: Stopping the ghprb trigger for project MVCMusicStoreBuild
+May 01, 2015 4:47:21 PM org.jenkinsci.plugins.ghprb.GhprbTrigger start
+INFO: Starting the ghprb trigger for the MVCMusicStoreBuild job; newInstance is true
+May 01, 2015 4:47:21 PM org.jenkinsci.plugins.ghprb.GhprbRepository initGhRepository
+SEVERE: Could not retrieve GitHub repository named vimalkumarPyramid/DevOps.git (Do you have properly set 'GitHub project' field in job configuration?)
+java.io.FileNotFoundException: {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:494)
+	at org.kohsuke.github.Requester._to(Requester.java:245)
+	at org.kohsuke.github.Requester.to(Requester.java:191)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:320)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.initGhRepository(GhprbRepository.java:66)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.init(GhprbRepository.java:47)
+	at org.jenkinsci.plugins.ghprb.Ghprb.init(Ghprb.java:71)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:131)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.start(GhprbTrigger.java:38)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1876)
+	at hudson.model.Project.submit(Project.java:230)
+	at hudson.model.Job.doConfigSubmit(Job.java:1206)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:788)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:298)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:161)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:96)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:121)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:249)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:746)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:876)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:686)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1494)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:123)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:114)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1482)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1474)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:533)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:960)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1021)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:668)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at winstone.BoundedExecutorService$1.run(BoundedExecutorService.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:451)
+	at org.kohsuke.github.Requester._to(Requester.java:224)
+	... 69 more
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:447)
+	... 70 more
+
+May 01, 2015 4:47:24 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+WARNING: Failed to instantiate optional component com.cloudbees.jenkins.GitHubRepositoryNameContributor$FromMultiSCM; skipping
+May 01, 2015 4:47:36 PM hudson.model.Run execute
+INFO: MVCMusicStoreBuild #1 main build action completed: SUCCESS
+May 01, 2015 4:47:45 PM hudson.model.Run execute
+INFO: MVCMusicStoreBuild #2 main build action completed: FAILURE
+May 01, 2015 4:48:02 PM org.jenkinsci.plugins.ghprb.GhprbRepository initGhRepository
+SEVERE: Could not retrieve GitHub repository named vimalkumarPyramid/DevOps.git (Do you have properly set 'GitHub project' field in job configuration?)
+java.io.FileNotFoundException: {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:494)
+	at org.kohsuke.github.Requester._to(Requester.java:245)
+	at org.kohsuke.github.Requester.to(Requester.java:191)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:320)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.initGhRepository(GhprbRepository.java:66)
+	at org.jenkinsci.plugins.ghprb.GhprbRepository.check(GhprbRepository.java:76)
+	at org.jenkinsci.plugins.ghprb.Ghprb.run(Ghprb.java:104)
+	at org.jenkinsci.plugins.ghprb.GhprbTrigger.run(GhprbTrigger.java:164)
+	at hudson.triggers.Trigger.checkTriggers(Trigger.java:266)
+	at hudson.triggers.Trigger$Cron.doRun(Trigger.java:215)
+	at hudson.triggers.SafeTimerTask.run(SafeTimerTask.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:451)
+	at org.kohsuke.github.Requester._to(Requester.java:224)
+	... 16 more
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/vimalkumarPyramid/DevOps.git
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at org.kohsuke.github.Requester.parse(Requester.java:447)
+	... 17 more
+
+May 01, 2015 4:48:20 PM javax.jmdns.impl.DNSIncoming readAnswer
+WARNING: There was an OPT answer. Not currently handled. Option code: 65002 data: 31BE2AC4884BA033

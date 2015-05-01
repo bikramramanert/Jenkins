@@ -1,0 +1,57 @@
+2015-04-22 15:10:32 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=8080
+2015-04-22 15:10:32 - Started 10140
+2015-04-22 15:12:34 - Stopping jenkins
+2015-04-22 15:12:34 - ProcessKill 10140
+2015-04-22 15:12:35 - Send SIGINT 10140
+2015-04-22 15:12:35 - SIGINT to10140 successful
+2015-04-22 15:12:35 - Finished jenkins
+2015-04-22 15:12:50 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-22 15:12:50 - Started 3120
+2015-04-23 13:50:44 - Stopping jenkins
+2015-04-23 13:50:44 - ProcessKill 3120
+2015-04-23 13:50:59 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-04-23 13:52:30 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-23 13:52:31 - Started 1324
+2015-04-30 12:09:24 - Stopping jenkins
+2015-04-30 12:09:24 - ProcessKill 1324
+2015-04-30 12:09:25 - Send SIGINT 1324
+2015-04-30 12:09:26 - SIGINT to1324 successful
+2015-04-30 12:09:26 - Finished jenkins
+2015-04-30 12:09:28 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-30 12:09:28 - Started 9280
+2015-04-30 12:22:36 - Stopping jenkins
+2015-04-30 12:22:36 - ProcessKill 9280
+2015-04-30 12:22:36 - Send SIGINT 9280
+2015-04-30 12:22:36 - SIGINT to9280 successful
+2015-04-30 12:22:36 - Finished jenkins
+2015-04-30 12:22:37 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-30 12:22:37 - Started 9412
+2015-04-30 13:16:00 - Stopping jenkins
+2015-04-30 13:16:00 - ProcessKill 9412
+2015-04-30 13:16:00 - Send SIGINT 9412
+2015-04-30 13:16:00 - SIGINT to9412 successful
+2015-04-30 13:16:00 - Finished jenkins
+2015-04-30 13:16:02 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-30 13:16:02 - Started 5916
+2015-04-30 14:12:34 - Stopping jenkins
+2015-04-30 14:12:34 - ProcessKill 5916
+2015-04-30 14:12:34 - Send SIGINT 5916
+2015-04-30 14:12:34 - SIGINT to5916 successful
+2015-04-30 14:12:34 - Finished jenkins
+2015-04-30 14:12:36 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-30 14:12:36 - Started 10452
+2015-04-30 14:25:08 - Stopping jenkins
+2015-04-30 14:25:08 - ProcessKill 10452
+2015-04-30 14:25:08 - Send SIGINT 10452
+2015-04-30 14:25:08 - SIGINT to10452 successful
+2015-04-30 14:25:08 - Finished jenkins
+2015-04-30 14:25:09 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Users\vimalk\.jenkins\jenkins.war" --httpPort=9022
+2015-04-30 14:25:09 - Started 4620
+2015-05-01 16:17:56 - Starting java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\JENKINS\jenkins.war" --httpPort=9022
+2015-05-01 16:17:56 - Started 10624

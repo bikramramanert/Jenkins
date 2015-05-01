@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl plugin="jira@1.39">
+  <sites>
+    <hudson.plugins.jira.JiraSite>
+      <url>http://202.54.219.39:9020/</url>
+      <useHTTPAuth>false</useHTTPAuth>
+      <userName>vimal.kumar</userName>
+      <password>Welcome!</password>
+      <groupVisibility>jira-developers</groupVisibility>
+      <roleVisibility>Developers</roleVisibility>
+      <supportsWikiStyleComment>false</supportsWikiStyleComment>
+      <recordScmChanges>false</recordScmChanges>
+      <updateJiraIssueForAllStatus>false</updateJiraIssueForAllStatus>
+    </hudson.plugins.jira.JiraSite>
+  </sites>
+</hudson.plugins.jira.JiraProjectProperty_-DescriptorImpl>

@@ -1,0 +1,37 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Jira Issue Updater' groupId='info.bluefloyd.jenkins' artifactId='jenkins-jira-issue-updater' version='1.10' url='https://wiki.jenkins-ci.org/display/JENKINS/Jira+Issue+Updater+Plugin'>
+    <l:description>Jenkins plugin which can update Jira issues in a maven or a freestyle job.</l:description>
+  </l:dependency>
+  <l:dependency name='axis' groupId='axis' artifactId='axis' version='1.3'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='WSDL4J' groupId='wsdl4j' artifactId='wsdl4j' version='1.5.1' url='http://sf.net/projects/wsdl4j'>
+    <l:description>Java stub generator for WSDL</l:description>
+  </l:dependency>
+  <l:dependency name='axis-saaj' groupId='axis' artifactId='axis-saaj' version='1.3'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='JavaBeans Activation Framework (JAF)' groupId='javax.activation' artifactId='activation' version='1.1' url='http://java.sun.com/products/javabeans/jaf/index.jsp'>
+    <l:description>JavaBeans Activation Framework (JAF) is a standard extension to the Java platform that lets you take advantage of standard services to: determine the type of an arbitrary piece of data; encapsulate access to it; discover the operations available on it; and instantiate the appropriate bean to perform the operation(s).</l:description>
+    <l:license name='Common Development and Distribution License (CDDL) v1.0' url='https://glassfish.dev.java.net/public/CDDLv1.0.html' />
+  </l:dependency>
+  <l:dependency name='axis-jaxrpc' groupId='axis' artifactId='axis-jaxrpc' version='1.3'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='Logging' groupId='commons-logging' artifactId='commons-logging' version='1.0.4' url='http://jakarta.apache.org/commons/logging/'>
+    <l:description>Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems.</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='/LICENSE.txt' />
+  </l:dependency>
+  <l:dependency name='Discovery' groupId='commons-discovery' artifactId='commons-discovery' version='0.2'>
+    <l:description>Commons Discovery</l:description>
+  </l:dependency>
+  <l:dependency name='JavaMail API jar' groupId='javax.mail' artifactId='javax.mail-api' version='1.4.4' url='http://kenai.com/projects/javamail/javax.mail-api'>
+    <l:description>JavaMail API jar</l:description>
+    <l:license name='CDDL' url='http://www.sun.com/cddl' />
+    <l:license name='GPLv2+CE' url='https://glassfish.dev.java.net/public/CDDL+GPL.html' />
+  </l:dependency>
+  <l:dependency name='axis-wsdl4j' groupId='axis' artifactId='axis-wsdl4j' version='1.5.1'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

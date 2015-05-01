@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: artkoshelev
+Build-Jdk: 1.6.0_51
+Extension-Name: jira
+Specification-Title: Integrates Jenkins to JIRA
+Implementation-Title: jira
+Implementation-Version: 1.39
+Group-Id: org.jenkins-ci.plugins
+Short-Name: jira
+Long-Name: Jenkins JIRA plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/JIRA+Plugin
+Plugin-Version: 1.39
+Hudson-Version: 1.533
+Jenkins-Version: 1.533
+Plugin-Dependencies: maven-plugin:1.533
+Plugin-Developers: Olivier Lamy:olamy:
+
